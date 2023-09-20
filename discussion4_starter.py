@@ -7,8 +7,8 @@ class Rectangle():
 
     # YOUR CODE HERE
     def __init__(self, width, height):
-    self.width = width
-    self.height = height
+        self.width = width
+        self.height = height
 
 
 
@@ -19,6 +19,9 @@ class Rectangle():
     #       "A rectangle with width ____ and height ____"
 
     # YOUR CODE HERE
+    def __str__(self):
+        return "A rectangle with width " + str(self.width) + " and height " + str(self.height)
+
 
 
 
